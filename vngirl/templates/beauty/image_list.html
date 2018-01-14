@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <ul>
+    {% for i in images %}
+      <li>
+        S: {{i.source}}
+        <br>
+        <img src="{{i.url}}" alt="">
+      </li>
+    {% endfor %}
+  </ul>
+{% endblock %}
