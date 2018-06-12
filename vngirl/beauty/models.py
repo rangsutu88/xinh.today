@@ -1,5 +1,5 @@
 from django.db.models import (
-    Model, CharField, URLField, DateTimeField, SmallIntegerField
+    Model, URLField, DateTimeField, SmallIntegerField
 )
 
 
